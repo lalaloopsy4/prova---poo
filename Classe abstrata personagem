@@ -24,9 +24,9 @@ public int getVitalidade() {
 public void setVitalidade(int vitalidade) {
     if(vitalidade >= 0 && vitalidade <= 100) {
       this.vitalidade = vitalidade;
-    } else {
-      throw new IllegalArgumentException("Vitalidade deve estar entre 0 e 100");
-    }
+    }else {
+          System.out.println("A Vitalidae deve estar entre 0 e 100");
+      }
 }
 
 public Jogo getJogo() {
